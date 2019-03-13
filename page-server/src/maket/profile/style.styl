@@ -1,0 +1,63 @@
+// lightness, hue, saturation -- auto snipetts
+
+bio-color = lightness(#AAddff,40%);
+bio-bg-color = rgba(bio-color,0.1);
+uinfo-color = lightness(bio-color,25%);
+unav-t-color = #f0f0f0;
+unav-bg-color = lightness(#ffd0a9,35%);
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 96%;
+}
+body {
+	// display: inline-block;
+}
+.uinfo {
+	display: flex;
+	flex-wrap: wrap;
+	width: 200px;
+	height 100%;
+	// max-width: 500px;
+	// max-height: 500px;
+	// background-color: uinfo-color; 
+	background-color: transperent; 
+	justify-content: center;
+	#avatar {
+		width: 60%;
+		height: 60%;
+		padding: 5% 0;
+	}
+	.ubio {
+		overflow-wrap: break-word;
+		padding: 5% 0;
+		color: bio-color;
+		//margin-left: 5px;
+		height: 100px;
+		width: 50%;
+		position: relative;
+		top: 100%;
+	}	
+}
+
+#unav {
+	// background-color: lightness(#ffd0a9,35%);
+	position: absolute;
+	left: 500px;
+	color: unav-t-color;
+	a {
+		text-decoration: none;
+		color: unav-t-color;
+	}
+	ul {
+		li {
+			background-color: unav-bg-color;
+			display: inline-block;
+			padding: 5px;
+		}
+		list-style: none;	
+	}
+	
+}

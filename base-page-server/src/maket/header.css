@@ -1,0 +1,13 @@
+#gheader {
+  font-size: 15px;
+  background-color: #f00;
+  height: 35px;
+}
+#gheader ul {
+  list-style: none;
+  padding: 0px;
+}
+#gheader ul li {
+  display: inline-block;
+  padding: 10px;
+}

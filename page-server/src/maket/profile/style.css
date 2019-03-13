@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+  font-size: 96%;
+}
+.uinfo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 100%;
+  background-color: transperent;
+  justify-content: center;
+}
+.uinfo #avatar {
+  width: 60%;
+  height: 60%;
+  padding: 5% 0;
+}
+.uinfo .ubio {
+  overflow-wrap: break-word;
+  padding: 5% 0;
+  color: #007acc;
+  height: 100px;
+  width: 50%;
+  position: relative;
+  top: 100%;
+}
+#unav {
+  position: absolute;
+  left: 500px;
+  color: #f0f0f0;
+}
+#unav a {
+  text-decoration: none;
+  color: #f0f0f0;
+}
+#unav ul {
+  list-style: none;
+}
+#unav ul li {
+  background-color: #b25100;
+  display: inline-block;
+  padding: 5px;
+}
